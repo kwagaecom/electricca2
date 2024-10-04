@@ -38,29 +38,31 @@
       <div class="header_section">
          <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-               <a class="navbar-brand"href="index.html"><img src="images/logo.png"></a>
-               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-               <span class="navbar-toggler-icon"></span>
-               </button>
+               
                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav ml-auto">
                      <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link" href="#home">Home</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="about.html">About Us</a>
+                        <a class="nav-link" href="#about">About Us</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="services.html">Services</a>
+                        <a class="nav-link" href="#services">Services</a>
+                     </li>
+<a class="navbar-brand"href="index.html"><img src="images/logo.png"></a>
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+
+                     <li class="nav-item">
+                        <a class="nav-link" href="#testimonial">Testimonial</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="testimonial.html">Testimonial</a>
+                        <a class="nav-link" href="#gallery">Gallery</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="blog.html">Blog</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact Us</a>
+                        <a class="nav-link" href="#contact">Contact Us</a>
                      </li>
                   </ul>
                   <form class="form-inline my-2 my-lg-0">
@@ -71,134 +73,715 @@
       </div>
       <!-- header section end -->
       <!-- banner section start -->
-      <div class="banner_section">
-         <div class="container">
-            <div id="main_slider" class="carousel slide" data-ride="carousel">
-               <div class="carousel-inner">
-                  <div class="carousel-item active">
-                     <div class="container">
-                        <div class="row">
-                           <div class="col-md-12">
-                              <h1 class="banner_taital">Electricity Service </h1>
-                              <p class="banner_text">Anything embarrassing hidden in the middle of text. All the Lorem Ipsuanything embarrassing h</p>
-                              <div class="read_bt"><a href="#">Read More</a></div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="carousel-item">
-                     <div class="container">
-                        <div class="row">
-                           <div class="col-md-12">
-                              <h1 class="banner_taital">Electricity Service </h1>
-                              <p class="banner_text">Anything embarrassing hidden in the middle of text. All the Lorem Ipsuanything embarrassing h</p>
-                              <div class="read_bt"><a href="#">Read More</a></div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="carousel-item">
-                     <div class="container">
-                        <div class="row">
-                           <div class="col-md-12">
-                              <h1 class="banner_taital">Electricity Service </h1>
-                              <p class="banner_text">Anything embarrassing hidden in the middle of text. All the Lorem Ipsuanything embarrassing h</p>
-                              <div class="read_bt"><a href="#">Read More</a></div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
-               <i class="fa fa-angle-left"></i>
-               </a>
-               <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
-               <i class="fa fa-angle-right"></i>
-               </a>
+      <div class="banner_section" id="home">
+    <div class="container">
+        <div id="main_slider" class="carousel slide" data-bs-ride="carousel">
+            <!-- Carousel indicators -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#main_slider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#main_slider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#main_slider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#main_slider" data-bs-slide-to="3" aria-label="Slide 4"></button>
             </div>
-         </div>
-      </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h5 class="banner_taital">Residential Electrical Services</h5>
+                                <p class="banner_text">We provide top-notch residential electrical services, ensuring your home is safe and efficient. From installations to repairs, our experts are here to help.</p>
+                                <div class="read_bt">
+                                    <a href="#" class="enquiry-button" data-bs-toggle="modal" data-bs-target="#inquiryModal1">Enquiry Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h5 class="banner_taital">Commercial Electrical Service</h5>
+                                <p class="banner_text">Our commercial electrical services are designed to meet the unique needs of businesses. We handle everything from new installations to ongoing maintenance.</p>
+                                <div class="read_bt">
+                                    <a href="#" class="enquiry-button" data-bs-toggle="modal" data-bs-target="#inquiryModal2">Enquiry Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h5 class="banner_taital">Industrial Electrical Services</h5>
+                                <p class="banner_text">Our industrial electrical services focus on high-voltage systems, machinery, and infrastructure to ensure your operations run smoothly and safely.</p>
+                                <div class="read_bt">
+                                    <a href="#" class="enquiry-button" data-bs-toggle="modal" data-bs-target="#inquiryModal3">Enquiry Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h5 class="banner_taital">Electrical Maintenance Services</h5>
+                                <p class="banner_text">Our electrical maintenance services ensure that your systems are functioning optimally, preventing unexpected breakdowns and increasing safety.</p>
+                                <div class="read_bt">
+                                    <a href="#" class="enquiry-button" data-bs-toggle="modal" data-bs-target="#inquiryModal4">Enquiry Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#main_slider" role="button" data-bs-slide="prev">
+                <i class="fa fa-angle-left" aria-hidden="true"></i>
+                <span class="visually-hidden"></span>
+            </a>
+            <a class="carousel-control-next" href="#main_slider" role="button" data-bs-slide="next">
+                <i class="fa fa-angle-right" aria-hidden="true"></i>
+                <span class="visually-hidden"></span>
+            </a>
+        </div>
+    </div>
+</div>
+
       <!-- banner section end -->
-      <!-- service section start -->
-      <div class="service_section layout_padding">
-         <div class="container-fluid">
-            <div class="row">
-               <div class="col-sm-12">
-                  <h1 class="service_taital">Our Services</h1>
-               </div>
+   <!-- About Section -->
+<section class="about_section layout_padding" id="about">
+   <div class="container">
+      <div class="row">
+         <div class="col-sm-12">
+            <h1 class="about_taital">About Our Electricity Company</h1>
+         </div>
+      </div>
+   </div>
+</section>
+
+<!-- About Section Details -->
+<div class="about_section_2 layout_padding">
+   <div class="container">
+      <div class="row">
+         <div class="col-md-6">
+            <div class="about_taital_main">
+               <h1 class="slightly_text">Your Reliable Partner in Electrical Services</h1>
+               <p class="lorem_text">
+                  Our company has been a trusted provider of electrical services for over a decade. 
+                  We specialize in residential, commercial, and industrial electrical solutions. 
+                  Our dedicated team ensures the highest safety standards and quality workmanship in every project.
+               </p>
+               
             </div>
-            <div class="service_section_2">
-               <div class="row">
-                  <div class="col-lg-3 col-sm-6">
-                     <div class="service_box">
-                        <div class="building_icon"><img src="images/building-icon.png"></div>
-                        <h4 class="residential_text">Residential Services</h4>
-                        <p class="service_text">alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything</p>
-                     </div>
-                     <div class="readmore_bt"><a href="#">Read More</a></div>
+         </div>
+         <div class="col-md-6">
+            <!-- Carousel for Images -->
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+               <div class="carousel-inner">
+                 <div class="carousel-item active">
+                     <img src="https://media.istockphoto.com/id/1439776778/photo/electrician-measuring-electrical-voltage.webp?a=1&b=1&s=612x612&w=0&k=20&c=kOUw4lQDjWL5Q05LS1QfBCqycpWdTZO_JgcCOUTMtms=" class="d-block w-100" alt="Electrical Service 1">
                   </div>
-                  <div class="col-lg-3 col-sm-6">
-                     <div class="service_box active">
-                        <div class="building_icon"><img src="images/flash-icon.png"></div>
-                        <h4 class="residential_text">Commercial Services</h4>
-                        <p class="service_text">alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything</p>
-                     </div>
-                     <div class="readmore_bt active"><a href="#">Read More</a></div>
+                  <div class="carousel-item">
+                     <img src="https://media.istockphoto.com/id/1345670559/photo/electrician-fixing-an-electrical-outlet-and-measuring-the-voltage.webp?a=1&b=1&s=612x612&w=0&k=20&c=5lp_iJQfahTtJnv5CluqHagQPgzrAKdumG-L_eI59Qk=" class="d-block w-100" alt="Electrical Service 2">
                   </div>
-                  <div class="col-lg-3 col-sm-6">
-                     <div class="service_box">
-                        <div class="building_icon"><img src="images/industrial-icon.png"></div>
-                        <h4 class="residential_text">Industrial Services</h4>
-                        <p class="service_text">alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything</p>
-                     </div>
-                     <div class="readmore_bt"><a href="#">Read More</a></div>
-                  </div>
-                  <div class="col-lg-3 col-sm-6">
-                     <div class="service_box">
-                        <div class="building_icon"><img src="images/bulb-icon.png"></div>
-                        <h4 class="residential_text">Electrical Services</h4>
-                        <p class="service_text">alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything</p>
-                     </div>
-                     <div class="readmore_bt"><a href="#">Read More</a></div>
+                  <div class="carousel-item">
+                     <img src="https://media.istockphoto.com/id/1408152924/photo/close-up-on-a-repairman-fixing-an-electrical-outlet.webp?a=1&b=1&s=612x612&w=0&k=20&c=8m8mBWOU5TeRcoRCioApTNPapi5jCKafhCTxgyngRrQ=" class="d-block w-100" alt="Electrical Service 3">
                   </div>
                </div>
+               <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only"></span>
+               </a>
+               <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only"></span>
+               </a>
             </div>
          </div>
       </div>
+   </div>
+</div>
+
+<!-- Include Bootstrap CSS and JS -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+      <!-- service section start -->
+<section class="photo-gallery" id="gallery">
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 gallery-grid">
+      <div class="col">
+        <a class="gallery-item" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxJ3FhP9Hvc-APE_uP8_XCYpmxwh3kWB5tM4iJmFxPBDtpPwQCbNmHkrf2iJLRM7lhItccsuraTaiXgTgPo8rcXhapX6_xlrdPB9tjIXh5_wvCMP4JhHGzS_lz-H-iZeIFx8CcWB4GPslVK13KwpT9VmdNTWD74Z_GRM2rsL39iJXkL06Z7apDGEZZMLCI/s320/electrical%20service.JPG">
+          <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxJ3FhP9Hvc-APE_uP8_XCYpmxwh3kWB5tM4iJmFxPBDtpPwQCbNmHkrf2iJLRM7lhItccsuraTaiXgTgPo8rcXhapX6_xlrdPB9tjIXh5_wvCMP4JhHGzS_lz-H-iZeIFx8CcWB4GPslVK13KwpT9VmdNTWD74Z_GRM2rsL39iJXkL06Z7apDGEZZMLCI/s320/electrical%20service.JPG" class="img-fluid" alt="">
+        </a>
+      </div>
+      <div class="col">
+        <a class="gallery-item" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMosbSoXfVP_pX5tLUPr3HhJ_GHZYQ-f0RCswe3jWCvp5if7FQ_KdWsGpxYIni9XOOzGgKQT9_7bkvQcXrGeVA_fdWegevdQ4c3LBWbYM2rL84mwQx_cknbzf4PPdFOOitrAONn6KO_JQDEmMk1_asrci2QMteDAragGMXOzHgV5PUp_MwlKNAFQCYkq_K/s320/electrical%20service1.JPG">
+          <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMosbSoXfVP_pX5tLUPr3HhJ_GHZYQ-f0RCswe3jWCvp5if7FQ_KdWsGpxYIni9XOOzGgKQT9_7bkvQcXrGeVA_fdWegevdQ4c3LBWbYM2rL84mwQx_cknbzf4PPdFOOitrAONn6KO_JQDEmMk1_asrci2QMteDAragGMXOzHgV5PUp_MwlKNAFQCYkq_K/s320/electrical%20service1.JPG" class="img-fluid" alt="">
+        </a>
+      </div>
+      <div class="col">
+        <a class="gallery-item" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8qAiBC6C8l-95OQeBKxlR4NIWdk9-egIJipeksb4UiGAvnz5tSPTy9jpNHP_-udbr3rE6WRuTuEFkYyzJsd6as-0Bqfv35DJwSD_hvxBRLp9QMVKIfeE3YBWNx3vVb7-ERlaqt66uZYC8iSiysh80_2BZzYzY_hmHQbjzsAt3DmufMzSkyZQDd8DNXSRW/s1600/electrical%20service2.JPG">
+          <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8qAiBC6C8l-95OQeBKxlR4NIWdk9-egIJipeksb4UiGAvnz5tSPTy9jpNHP_-udbr3rE6WRuTuEFkYyzJsd6as-0Bqfv35DJwSD_hvxBRLp9QMVKIfeE3YBWNx3vVb7-ERlaqt66uZYC8iSiysh80_2BZzYzY_hmHQbjzsAt3DmufMzSkyZQDd8DNXSRW/s1600/electrical%20service2.JPG" class="img-fluid" alt="">
+        </a>
+      </div>
+      <div class="col">
+        <a class="gallery-item" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEheDtijAFUGpG36LWl0U9u9RSCTal5-j_3_vZbIv6EypVz9AKzKgt4EHK41gupZ1YTrC02vGXQ6xDSWxtH-F2uT1FzUQdfIqlh9vKNco2zehq5ZY7-73652KXk3bI4RV33mDmaAROdLEkZRvEDQja-j6UV-qaSyFIxLZwC3or1fqSC7eiNU80FPdgK9UxKO/s1600/electrical%20service3.JPG">
+          <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEheDtijAFUGpG36LWl0U9u9RSCTal5-j_3_vZbIv6EypVz9AKzKgt4EHK41gupZ1YTrC02vGXQ6xDSWxtH-F2uT1FzUQdfIqlh9vKNco2zehq5ZY7-73652KXk3bI4RV33mDmaAROdLEkZRvEDQja-j6UV-qaSyFIxLZwC3or1fqSC7eiNU80FPdgK9UxKO/s1600/electrical%20service3.JPG" class="img-fluid" alt="">
+        </a>
+      </div>
+      <div class="col">
+        <a class="gallery-item" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBNmy8sCTxK0nxYJ4h1y4oG3jj9_suNdYQcHO6uddltM5vBzNOBk9yfvaTuTAX-JiBDth6PZZLKs_TTUh5hJyIyinEUDDf8JsDKPYmxGiTEsfFZyL9IlzhVZ6C5WGmdIhdRfBLCxECZtAmz0mbKoDIntkd5tkyz79qZuFx842hKtW1fyNxXA5xGoGFRUWq/s1600/electrical%20service4.JPG">
+          <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBNmy8sCTxK0nxYJ4h1y4oG3jj9_suNdYQcHO6uddltM5vBzNOBk9yfvaTuTAX-JiBDth6PZZLKs_TTUh5hJyIyinEUDDf8JsDKPYmxGiTEsfFZyL9IlzhVZ6C5WGmdIhdRfBLCxECZtAmz0mbKoDIntkd5tkyz79qZuFx842hKtW1fyNxXA5xGoGFRUWq/s1600/electrical%20service4.JPG" class="img-fluid" alt="">
+        </a>
+      </div>
+      <div class="col">
+        <a class="gallery-item" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkmXxpfHLtcCIhoxikZkEsIKAaaeg5Ra7aN_SL6AIx7b4xbbg66GDliK0M1evNYgzS4SVQYJ4YM8LVSEqEvLtg7Usvfqf1_8ufOTD3Zjnw4T7wGLIYahdCjobHG82_78pe_YTmh_tEvQxx7nDh6PcIlB6QPhLfNkc3nm80q3SDYrPiJoBWWskb8Wwg3zd9/s1600/electrical%20service5.JPG">
+          <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkmXxpfHLtcCIhoxikZkEsIKAaaeg5Ra7aN_SL6AIx7b4xbbg66GDliK0M1evNYgzS4SVQYJ4YM8LVSEqEvLtg7Usvfqf1_8ufOTD3Zjnw4T7wGLIYahdCjobHG82_78pe_YTmh_tEvQxx7nDh6PcIlB6QPhLfNkc3nm80q3SDYrPiJoBWWskb8Wwg3zd9/s1600/electrical%20service5.JPG" class="img-fluid" alt="">
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+
+<div class="modal fade lightbox-modal" id="lightbox-modal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-fullscreen">
+    <div class="modal-content">
+      <button type="button" class="btn-fullscreen-enlarge" aria-label="Enlarge fullscreen">
+        <svg class="bi"><use href="#enlarge"></use></svg>
+      </button>
+      <button type="button" class="btn-fullscreen-exit d-none" aria-label="Exit fullscreen">
+        <svg class="bi"><use href="#exit"></use></svg>
+      </button>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      <div class="modal-body">
+        <div class="lightbox-content">
+          <!-- JS content here -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<style>
+
+:root {
+  --lightbox: rgb(0 0 0 / 0.75);
+  --carousel-text: #fff;
+}
+
+body {
+  margin: 1.5rem 0 3.5rem;
+}
+
+@keyframes zoomin {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.gallery-item {
+  display: block;
+}
+
+.gallery-item img {
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.2s;
+}
+
+.gallery-item:hover img {
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.35);
+}
+
+.lightbox-modal .modal-content {
+  background-color: var(--lightbox);
+}
+
+.lightbox-modal .btn-close {
+  position: absolute;
+  top: 1.25rem;
+  right: 1.25rem;
+  font-size: 1.25rem;
+  z-index: 10;
+  filter: invert(1) grayscale(100);
+}
+
+.lightbox-modal .modal-body {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.lightbox-modal .lightbox-content {
+  width: 100%;
+}
+
+.lightbox-modal .carousel-indicators {
+  margin-bottom: 0;
+}
+
+.lightbox-modal .carousel-indicators [data-bs-target] {
+  background-color: var(--carousel-text) !important;
+}
+
+.lightbox-modal .carousel-inner {
+  width: 75%;
+}
+
+.lightbox-modal .carousel-inner img {
+  animation: zoomin 10s linear infinite;
+}
+
+.lightbox-modal .carousel-item .carousel-caption {
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding-bottom: 2rem;
+  background-color: var(--lightbox);
+  color: var(--carousel-text) !important;
+}
+
+.lightbox-modal .carousel-control-prev,
+.lightbox-modal .carousel-control-next {
+  width: auto;
+}
+
+.lightbox-modal .carousel-control-prev {
+  left: 1.25rem;
+}
+
+.lightbox-modal .carousel-control-next {
+  right: 1.25rem;
+}
+
+@media (min-width: 1400px) {
+  .lightbox-modal .carousel-inner {
+    max-width: 60%;
+  }
+}
+
+[data-bs-theme = "dark"] .lightbox-modal .carousel-control-next-icon,
+[data-bs-theme = "dark"] .lightbox-modal .carousel-control-prev-icon {
+    filter: none;
+}
+
+.btn-fullscreen-enlarge,
+.btn-fullscreen-exit {
+  position: absolute;
+  top: 1.25rem;
+  right: 3.5rem;
+  z-index: 10;
+  border: 0;
+  background: transparent;
+  opacity: .6;
+  font-size: 1.25rem;
+}
+
+.bi {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.035em;
+  fill: currentcolor;
+}
+</style>
+<script>
+const html = document.querySelector('html');
+html.setAttribute('data-bs-theme', 'dark');
+
+document.addEventListener('DOMContentLoaded', () => {
+  // --- Create LightBox
+  const galleryGrid = document.querySelector(".gallery-grid");
+  const links = galleryGrid.querySelectorAll("a");
+  const imgs = galleryGrid.querySelectorAll("img");
+  const lightboxModal = document.getElementById("lightbox-modal");
+  const bsModal = new bootstrap.Modal(lightboxModal);
+  const modalBody = lightboxModal.querySelector(".lightbox-content");
+
+  function createCaption (caption) {
+    return `<div class="carousel-caption d-none d-md-block">
+        <h4 class="m-0">${caption}</h4>
+      </div>`;
+  }
+
+  function createIndicators (img) {
+    let markup = "", i, len;
+
+    const countSlides = links.length;
+    const parentCol = img.closest('.col');
+    const curIndex = [...parentCol.parentElement.children].indexOf(parentCol);
+
+    for (i = 0, len = countSlides; i < len; i++) {
+      markup += `
+        <button type="button" data-bs-target="#lightboxCarousel"
+          data-bs-slide-to="${i}"
+          ${i === curIndex ? 'class="active" aria-current="true"' : ''}
+          aria-label="Slide ${i + 1}">
+        </button>`;
+    }
+
+    return markup;
+  }
+
+  function createSlides (img) {
+    let markup = "";
+    const currentImgSrc = img.closest('.gallery-item').getAttribute("href");
+
+    for (const img of imgs) {
+      const imgSrc = img.closest('.gallery-item').getAttribute("href");
+      const imgAlt = img.getAttribute("alt");
+
+      markup += `
+        <div class="carousel-item${currentImgSrc === imgSrc ? " active" : ""}">
+          <img class="d-block img-fluid w-100" src=${imgSrc} alt="${imgAlt}">
+          ${imgAlt ? createCaption(imgAlt) : ""}
+        </div>`;
+    }
+
+    return markup;
+  }
+
+  function createCarousel (img) {
+    const markup = `
+      <!-- Lightbox Carousel -->
+      <div id="lightboxCarousel" class="carousel slide carousel-fade" data-bs-ride="true">
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+          ${createIndicators(img)}
+        </div>
+        <!-- Wrapper for Slides -->
+        <div class="carousel-inner justify-content-center mx-auto">
+          ${createSlides(img)}
+        </div>
+        <!-- Controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#lightboxCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#lightboxCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      `;
+
+    modalBody.innerHTML = markup;
+  }
+
+  for (const link of links) {
+    link.addEventListener("click", function (e) {
+      e.preventDefault();
+      const currentImg = link.querySelector("img");
+      const lightboxCarousel = document.getElementById("lightboxCarousel");
+
+      if (lightboxCarousel) {
+        const parentCol = link.closest('.col');
+        const index = [...parentCol.parentElement.children].indexOf(parentCol);
+
+        const bsCarousel = new bootstrap.Carousel(lightboxCarousel);
+        bsCarousel.to(index);
+      } else {
+        createCarousel(currentImg);
+      }
+
+      bsModal.show();
+    });
+  }
+
+  // --- Support Fullscreen
+  const fsEnlarge = document.querySelector(".btn-fullscreen-enlarge");
+  const fsExit = document.querySelector(".btn-fullscreen-exit");
+
+  function enterFS () {
+    lightboxModal.requestFullscreen().then({}).catch(err => {
+      alert(`Error attempting to enable full-screen mode: ${err.message} (${err.name})`);
+    });
+    fsEnlarge.classList.toggle("d-none");
+    fsExit.classList.toggle("d-none");
+  }
+
+  function exitFS () {
+    document.exitFullscreen();
+    fsExit.classList.toggle("d-none");
+    fsEnlarge.classList.toggle("d-none");
+  }
+
+  fsEnlarge.addEventListener("click", (e) => {
+    e.preventDefault();
+    enterFS();
+  });
+
+  fsExit.addEventListener("click", (e) => {
+    e.preventDefault();
+    exitFS();
+  });
+})
+</script>
+    <div class="service_section layout_padding" id="services">
+   <div class="container-fluid">
+      <div class="row">
+         <div class="col-sm-12">
+            <h1 class="service_taital">Our Services</h1>
+         </div>
+      </div>
+
+      <div class="service_section_2">
+         <div class="row">
+            <div class="col-lg-3 col-sm-6">
+               <div class="service_box">
+                  <div class="building_icon"><img src="images/building-icon.png" alt="Residential Services Icon"></div><i class="fa fa-home"></i>
+                  <h7 class="my-4"><span class="badge bg-primary">Electrical</span> <span class="badge bg-secondary">Inspection</span><span class="badge bg-success"> Services</span></h7>
+   
+                  <ul class="services-list">
+            <li><strong>Lighting Installation & Repair:</strong> Installation of indoor and outdoor lighting fixtures, including ceiling fans and dimmer switches.</li>
+            <li><strong>Wiring & Rewiring:</strong> Upgrading or installing new electrical wiring for home renovations, additions, or electrical system upgrades.</li>
+            <li><strong>Outlet & Switch Installation:</strong> Installation or repair of electrical outlets and switches for optimal functionality.</li>
+            <li><strong>Electrical Panel Upgrades:</strong> Upgrading electrical panels to handle increased power demands and improve safety.</li>
+            <li><strong>Home Automation:</strong> Installation of smart home systems for lighting, security, and climate control automation.</li>
+        
+        </ul>
+               </div>
+               <div class="enquiry_bt" align="center"><a href="#"><button type="button" class="enquiry-button" data-bs-toggle="modal" data-bs-target="#inquiryModal1"class="btn btn-primary">Enquiry Now</button></a></div>
+
+            </div>
+        <div class="col-lg-3 col-sm-6">
+               <div class="service_box">
+                  <div class="building_icon"><img src="images/industrial-icon.png" alt="Industrial Services Icon"></div><i class="fas fas-industry"></i> 
+                    <h7 class="my-4"><span class="badge bg-primary">Commercial </span> <span class="badge bg-secondary">Electrical </span><span class="badge bg-success"> Services</span></h7>
+   
+                  <ul>
+      <li><strong>High-voltage installations:</strong> Handling heavy-duty electrical systems and high-voltage equipment in factories or industrial plants.</li>
+      <li><strong>Motor and machinery wiring:</strong> Installing and maintaining the electrical wiring for industrial machinery and equipment.</li>
+      <li><strong>Control systems and automation:</strong> Setting up automated control systems for industrial processes and machinery.</li>
+      <li><strong>Electrical troubleshooting and maintenance:</strong> Diagnosing and repairing electrical issues in large-scale industrial systems.</li>
+    </ul>
+               </div>
+                <div class="enquiry_bt" align="center"><a href="#"><button type="button" class="enquiry-button" data-bs-toggle="modal" data-bs-target="#inquiryModal2"class="btn btn-primary">Enquiry Now</button></a></div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+               <div class="service_box">
+                  <div class="building_icon"><img src="images/flash-icon.png" alt="Industrial Services Icon"></div><i class="fas fa-tools"></i>
+                         <h7 class="my-4"><span class="badge bg-primary">Industrial</span> <span class="badge bg-secondary">Electrical</span><span class="badge bg-success"> Services</span></h7>
+   
+                 <ul>
+      <li><strong>Lighting systems:</strong> Installing and maintaining lighting for offices, retail stores, warehouses, and other commercial spaces.</li>
+      <li><strong>Electrical wiring for commercial buildings:</strong> Setting up wiring systems to meet commercial codes and regulations.</li>
+      <li><strong>Emergency lighting systems:</strong> Installing exit signs and emergency lighting for safety.</li>
+      <li><strong>Electrical system upgrades:</strong> Enhancing or expanding electrical systems to support growing business needs.</li>
+      <li><strong>Backup power solutions:</strong> Installing and maintaining uninterruptible power supplies (UPS) and generators.</li>
+    </ul>
+               </div>
+                <div class="enquiry_bt" align="center"><a href="#"><button type="button" class="enquiry-button" data-bs-toggle="modal" data-bs-target="#inquiryModal3"class="btn btn-primary">Enquiry Now</button></a></div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+               <div class="service_box">
+                  <div class="building_icon"><img src="images/bulb-icon.png" alt="Electrical Services Icon"></div>
+                     <h7 class="my-4"><span class="badge bg-primary">Electrical </span> <span class="badge bg-secondary">Maintenance </span><span class="badge bg-success"> Services</span></h7>
+   
+            <ul>
+      <li><strong>Routine electrical inspections:</strong> Conducting regular checks to ensure systems are functioning efficiently and safely.</li>
+      <li><strong>Preventive maintenance:</strong> Performing maintenance tasks to prevent future electrical failures or hazards.</li>
+      <li><strong>System upgrades:</strong> Upgrading older systems to improve safety, performance, and energy efficiency.</li>
+      <li><strong>Backup generator installation and maintenance:</strong> Installing and maintaining generators for homes or businesses to ensure power during outages.</li>
+    </ul>
+               </div>
+                   <div class="enquiry_bt" align="center"><a href="#"><button type="button" class="enquiry-button" data-bs-toggle="modal" data-bs-target="#inquiryModal4"class="btn btn-primary">Enquiry Now</button></a></div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+
+
+    <div class="modal fade" id="inquiryModal1" tabindex="-1" aria-labelledby="inquiryModalLabel1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="inquiryModalLabel1"><h7 class="my-4"><span class="badge bg-primary">Electrical</span> <span class="badge bg-secondary">Inspection</span><span class="badge bg-success"> Services</span></h7></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="text-center mb-3">
+                        <img src="images/building-icon.png" alt="Residential Services Icon" alt="building icon" class="img-fluid" style="max-width: 100px;">
+                    </div>
+                    <form>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="name4" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name4" placeholder="Enter your name">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="email4" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email4" placeholder="Enter your email">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="phone4" class="form-label">Phone Number</label>
+                                <input type="tel" class="form-control" id="phone4" placeholder="Enter your phone number">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="landline4" class="form-label">Landline Number</label>
+                                <input type="tel" class="form-control" id="landline4" placeholder="Enter your landline number">
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="inquiryModal2" tabindex="-1" aria-labelledby="inquiryModalLabel2" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="inquiryModalLabel2"> <h7 class="my-4"><span class="badge bg-primary">Commercial </span> <span class="badge bg-secondary">Electrical </span><span class="badge bg-success"> Services</span></h7></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="text-center mb-3">
+                        <img src="images/building-icon.png" alt="Residential Services Icon" alt="building icon" class="img-fluid" style="max-width: 100px;">
+                    </div>
+                    <form>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="name4" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name4" placeholder="Enter your name">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="email4" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email4" placeholder="Enter your email">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="phone4" class="form-label">Phone Number</label>
+                                <input type="tel" class="form-control" id="phone4" placeholder="Enter your phone number">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="landline4" class="form-label">Landline Number</label>
+                                <input type="tel" class="form-control" id="landline4" placeholder="Enter your landline number">
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="inquiryModal3" tabindex="-1" aria-labelledby="inquiryModalLabel3" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="inquiryModalLabel3">  <h7 class="my-4"><span class="badge bg-primary">Industrial</span> <span class="badge bg-secondary">Electrical</span><span class="badge bg-success"> Services</span></h7></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="text-center mb-3">
+                        <img src="images/building-icon.png" alt="Residential Services Icon" alt="building icon" class="img-fluid" style="max-width: 100px;">
+                    </div>
+                    <form>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="name4" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name4" placeholder="Enter your name">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="email4" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email4" placeholder="Enter your email">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="phone4" class="form-label">Phone Number</label>
+                                <input type="tel" class="form-control" id="phone4" placeholder="Enter your phone number">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="landline4" class="form-label">Landline Number</label>
+                                <input type="tel" class="form-control" id="landline4" placeholder="Enter your landline number">
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="inquiryModal4" tabindex="-1" aria-labelledby="inquiryModalLabel4" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="inquiryModalLabel4"> <h7 class="my-4"><span class="badge bg-primary">Electrical </span> <span class="badge bg-secondary">Maintenance </span><span class="badge bg-success"> Services</span></h7></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="text-center mb-3">
+                        <img src="images/building-icon.png" alt="Residential Services Icon" alt="building icon" class="img-fluid" style="max-width: 100px;">
+                    </div>
+                    <form>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="name4" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name4" placeholder="Enter your name">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="email4" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email4" placeholder="Enter your email">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="phone4" class="form-label">Phone Number</label>
+                                <input type="tel" class="form-control" id="phone4" placeholder="Enter your phone number">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="landline4" class="form-label">Landline Number</label>
+                                <input type="tel" class="form-control" id="landline4" placeholder="Enter your landline number">
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- Include Bootstrap JS (Optional) -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"></script>
+<style>
+img {
+  display: block;
+  visibility: visible;
+}
+</style>
       <!-- service section end -->
       <!-- about section start -->
-      <div class="about_section layout_padding">
-         <div class="container">
-            <div class="row">
-               <div class="col-sm-12">
-                  <h1 class="about_taital">About Our electricity Company</h1>
-               </div>
-            </div>
-         </div>
-      </div>
-      <div class="about_section_2 layout_padding">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-6">
-                  <div class="about_taital_main">
-                     <h1 class="slightly_text">Slightly believable. If you are going</h1>
-                     <p class="lorem_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p>
-                     <div class="readmore_btn"><a href="#">Read More</a></div>
-                  </div>
-               </div>
-               <div class="col-md-6">
-                  <div class="about_img"><img src="images/about-img.png"></div>
-               </div>
-            </div>
-         </div>
-      </div>
+  
       <!-- about section end -->
       <!-- testimonial section start -->
-      <div class="testimonial_section layout_padding">
+      <div class="testimonial_section layout_padding"id="testimonial">
          <div class="container">
             <div class="row">
                <div class="col-sm-12">
-                  <h1 class="testimonial_taital">Customers Testimonial</h1>
+                  <h1 class="testimonial_taital">Customers Reviews</h1>
                   <p class="testimonial_text">Even slightly believable. If you are going to use a passage </p>
                </div>
             </div>
@@ -210,8 +793,8 @@
                            <div class="client_img"><img src="images/client-img.png"></div>
                         </div>
                         <div class="testimonial_right">
-                           <h4 class="markro_text">Markro</h4>
-                           <p class="many_text">many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle </p>
+                           <h4 class="markro_text">Sohan</h4>
+                          <p class="many_text">We hired them for a complete rewiring of our home, and they exceeded our expectations. The team was punctual, explained every step clearly, and completed the work on time.</p>
                            <div class="quick_icon"><img src="images/quick-icon.png"></div>
                         </div>
                      </div>
@@ -222,8 +805,8 @@
                            <div class="client_img"><img src="images/client-img.png"></div>
                         </div>
                         <div class="testimonial_right">
-                           <h4 class="markro_text">Markro</h4>
-                           <p class="many_text">many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle </p>
+                           <h4 class="markro_text">Mohan</h4>
+                           <p class="many_text">Our office needed an electrical upgrade, and their team did an incredible job. They worked around our business hours to minimize disruption, and the results are flawless </p>
                            <div class="quick_icon"><img src="images/quick-icon.png"></div>
                         </div>
                      </div>
@@ -234,8 +817,8 @@
                            <div class="client_img"><img src="images/client-img.png"></div>
                         </div>
                         <div class="testimonial_right">
-                           <h4 class="markro_text">Markro</h4>
-                           <p class="many_text">many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle </p>
+                           <h4 class="markro_text">Jitendra</h4>
+                           <p class="many_text">We run a manufacturing plant, and finding a reliable electrical service provider is critical for us</p>
                            <div class="quick_icon"><img src="images/quick-icon.png"></div>
                         </div>
                      </div>
@@ -253,22 +836,56 @@
       <!-- testimonial section end -->
       <!-- shop section start -->
       <div class="shop_section layout_padding">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <h1 class="shop_taital">Do you need any help for <span style="color: #f9b116;">electricity ?</span></h1>
-                  <p class="shop_text">Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                  <div class="btn_main">
-                     <div class="quote_bt"><a href="#">Get A Quote</a></div>
-                     <div class="call_bt active"><a href="contact.html">Call Now</a></div>
-                  </div>
-               </div>
-            </div>
-         </div>
+        <style>
+  .video-container {
+    display: flex;
+    justify-content: space-between; /* Space between videos */
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    align-items: center; /* Align vertically */
+  }
+
+  .video-item {
+    flex: 1 1 23%; /* Adjust width to fit 4 videos in a row */
+    margin: 0 1%; /* Space between videos */
+  }
+
+  .video-item iframe {
+    width: 100%; /* Full width of the container */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 250px; /* Adjust max height to fit your design */
+    border: none;
+  }
+</style>
+
+<section id="videoCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner" align="center">
+    <!-- First Video -->
+    <div class="carousel-item active">
+     <iframe width="697" height="392" src="https://www.youtube.com/embed/lCEWEGKoM7I" title="how to start electrical business, electrical shop business, electrical business @BUSINESSDOST" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <!-- Second Video -->
+    <div class="carousel-item">
+    <iframe width="697" height="392" src="https://www.youtube.com/embed/RHrdsjXdxDI" title="How to Open a Successful Electrical Shop Business With Small Investment" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <!-- Third Video -->
+    <div class="carousel-item">
+     <iframe width="697" height="392" src="https://www.youtube.com/embed/JCf8AsgkF8A" title="बिजली की दुकान || Electronic Shop Business Hindi || Bijli ki Dukan Kaise Shuru Kare  market Delhi" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <!-- Fourth Video -->
+    <div class="carousel-item">
+    <iframe width="697" height="392" src="https://www.youtube.com/embed/2H5C7Uv3hzY" title="How to Open a Successful Electrical Shop Business💯electric shop businessplan💯electric shop item list" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+  </div>
+
+</section>
+
       </div>
       <!-- shop section end -->
       <!-- contact section start -->
-      <div class="contact_section layout_padding">
+      <div class="contact_section layout_padding"id="contact">
          <div class="container-fluid">
             <div class="contact_section_2">
                <div class="row">
@@ -297,50 +914,352 @@
       </div>
       <!-- contact section end -->
       <!-- footer section start -->
-      <div class="footer_section">
-         <div class="container">
-            <div class="footer_sectio_2">
-               <div class="row">
-                  <div class="col-lg-4 col-md-4">
-                     <h2 class="useful_text">Quick Links</h2>
-                     <div class="footer_menu">
-                        <ul>
-                           <li class="active"><a href="index.html">Home</a></li>
-                           <li><a href="about.html">About</a></li>
-                           <li><a href="service.html">Services</a></li>
-                           <li><a href="blog.html">Blog</a></li>
-                           <li><a href="testimonial.html">Testimonial</a></li>
-                           <li><a href="contact.html">Contact Us</a></li>
-                        </ul>
-                     </div>
-                  </div>
-                  <div class="col-lg-4 col-md-4">
-                     <h2 class="useful_text">Blog</h2>
-                     <p class="footer_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p>
-                     <div class="social_icon">
-                        <ul>
-                           <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                           <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                           <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                        </ul>
-                     </div>
-                  </div>
-                  <div class="col-lg-4 col-md-4">
-                     <h2 class="useful_text">Newsletter</h2>
-                     <input type="text" class="Enter_text" placeholder="Enter Your Email" name="Enter Your Email">
-                     <div class="subscribe_bt"><a href="#">Subscribe</a></div>
-                  </div>
-               </div>
+  <div class="footer_section">
+    <div class="container">
+        <div class="footer_section_2">
+            <div class="row">
+                <!-- Quick Links Section -->
+               
+
+                <!-- Blog Section -->
+               
+
+                <!-- Newsletter Section -->
+                
+
+                <!-- Working Hours Section -->
+                <div class="col-lg-3 col-md-6">
+                    <h2 class="useful_text">Working Hours</h2>
+                    <ul class="hours-list">
+                        <li><span>Monday:</span> 9:00 AM - 6:00 PM</li>
+                        <li><span>Tuesday:</span> 9:00 AM - 6:00 PM</li>
+                        <li><span>Wednesday:</span> 9:00 AM - 6:00 PM</li>
+                        <li><span>Thursday:</span> 9:00 AM - 6:00 PM</li>
+                        <li><span>Friday:</span> 9:00 AM - 6:00 PM</li>
+                        <li><span>Saturday:</span> 10:00 AM - 4:00 PM</li>
+                        <li><span>Sunday:</span> Closed</li>
+                    </ul>
+                </div>
             </div>
-         </div>
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-buttons">
+            <a href="#header"><button type="button" class="btn btn-info btn-sm">Home</button></a>
+            <a href="#about"><button type="button" class="btn btn-secondary btn-sm">About</button></a>
+            <a href="#services"><button type="button" class="btn btn-warning btn-sm">Services</button></a>
+            <a href="#gallery"><button type="button" class="btn btn-danger btn-sm">Gallery</button></a>
+            <a href="#review"><button type="button" class="btn btn-success btn-sm">Review</button></a>
+            <a href="#contact"><button type="button" class="btn btn-light btn-sm">Contact</button></a>
+        </div>
+    </div>
+</footer>
+<style>
+/* Footer Section Styling */
+.footer_section {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.footer_section .useful_text {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.footer_section .footer_menu ul,
+.footer_section .social_icon ul,
+.footer_section .hours-list {
+    list-style: none;
+    padding: 0;
+}
+
+.footer_section .footer_menu ul li,
+.footer_section .social_icon ul li,
+.footer_section .hours-list li {
+    margin-bottom: 10px;
+}
+
+.footer_section .footer_menu ul li a,
+.footer_section .social_icon ul li a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer_section .footer_menu ul li a:hover,
+.footer_section .social_icon ul li a:hover {
+    color: #fff;
+}
+
+.social_icon ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.hours-list li {
+    font-size: 16px;
+    color: #ccc;
+}
+
+.hours-list li span {
+    font-weight: bold;
+    color: #fff;
+}
+
+.hours-list li:last-child {
+    color: #ff4d4d; /* Red color for Closed */
+}
+
+
+
+/* Working Hours Specific Styling */
+.footer_section_2 .hours-list {
+    margin-top: 10px;
+}
+
+.footer_section_2 .hours-list li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer_section_2 .hours-list li span {
+    width: 100px;
+}
+
+/* Footer Navigation Buttons */
+.footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-buttons a {
+    margin: 5px;
+}
+
+.footer-buttons .btn {
+    border-radius: 20px;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+.footer-buttons .btn:hover {
+    opacity: 0.8;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+    .footer_section .col-lg-3 {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer_section .hours-list li span {
+        width: 80px;
+    }
+
+    .subscribe_bt button {
+        width: 100%;
+    }
+}
+</style>
+
+<!-- Don't forget to include Font Awesome in your HTML -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+        <div class="contact-info" style="text-align: right; margin-right: 30px;">
+  <div>
+    <b>Contact:</b> +91 12345 67890 <span style="margin-left: 20px;"><b>Email:</b> <a href="mailto:contact@electricalservice.com">contact@electricalservice.com</a></span>
+</div>
+</div>
+<style>
+        .copyright {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #f8f9fa;
+            border-top: 1px solid #e0e0e0;
+        }
+        .copyright span {
+            display: inline-block;
+            margin-left: 50px;
+            color: #333;
+            font-size: 14px;
+        }
+        .copyright strong span {
+            color: #007bff; /* Change this to your preferred color */
+        }
+    </style>
+<div class="copyright">
+        <span>&copy; Copyright <strong><span id="yearSpan"></span> Electrical-Service</strong>. All Rights Reserved</span>
+    </div>
+<div class="credits">
+        <span>Powered By <a href="https://company.kwaga.ltd/"><span class="badge bg-dark">KwagaWebDev</span></a></span>
+    </div>
+<script>
+        // Get the current year
+        const currentYear = new Date().getFullYear();
+        // Calculate the next year
+        const nextYear = currentYear + 1;
+        // Set the text in the span
+        document.getElementById('yearSpan').textContent = `${currentYear}-${nextYear}`;
+    </script>
+   
+<div align="left"class="contact-info">  
+<button type="button" style="margin-left: 10px; class="btn btn-primary">
+ <h5><span class="badge bg-primary">K</span> <span class="badge bg-secondary">W</span><span class="badge bg-danger">D</span><span class="badge bg-success">4.7</span>
+<span class="badge bg-info"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+
+</h5>
+
+</button>
+
+  </footer>
+ <style>
+    .wa__btn_popup {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 1000;
+    }
+
+    .wa__btn_popup .wa__btn_popup_icon {
+      width: 50px;
+      height: 50px;
+      background-color: #25D366;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    }
+
+    .wa__popup_chat_box {
+      position: fixed;
+      bottom: 80px;
+      right: 20px;
+      width: 300px;
+      display: none;
+      z-index: 1000;
+      border-radius: 0.25rem;
+      box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    }
+
+    .wa__popup_chat_box .wa__popup_heading {
+      background-color: #28a745;
+      color: #f8f9fa;
+      padding: 1rem 1.5rem;
+      border-top-left-radius: 0.25rem;
+      border-top-right-radius: 0.25rem;
+    }
+
+    .wa__popup_chat_box .wa__popup_content {
+      
+      margin: 1.5rem;
+    }
+
+    .wa__popup_chat_box .wa__popup_content_item {
+      margin-bottom: 0.5rem;
+    }
+
+    .wa__popup_chat_box .wa__popup_avatar {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-size: cover;
+      background-position: center center;
+    }
+
+    .wa__popup_chat_box .wa__popup_txt {
+      display: inline-block;
+      vertical-align: middle;
+      margin-left: 10px;
+    }
+
+    .wa__popup_chat_box .wa__popup_txt .wa__member_name {
+      font-weight: bold;
+    }
+
+    .wa__popup_chat_box .wa__popup_txt .wa__member_duty {
+      color: #6c757d;
+    }
+
+    .wa__popup_chat_box a {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      color: inherit;
+    }
+  </style>
+
+  <div class="wa__btn_popup">
+    <div class="wa__btn_popup_icon">
+      <i class="fa fa-2x fa-comments"></i>
+    </div>
+  </div>
+
+  <div class="wa__popup_chat_box wa__pending wa__lauch">
+    <div class="wa__popup_heading">
+      <div class="fw-bold wa__popup_title">Start a Conversation</div>
+      <div class="small wa__popup_intro">
+        Hi! Click one of our members below to chat on <strong>)</strong>
       </div>
+    </div>
+
+   <div class="wa__popup_content wa__popup_content_left">
+       <!--<div class="small text-secondary wa__popup_notice">
+        Tim kami biasanya membalas dalam hitungan menit
+      </div>-->
+
+      <div class="wa__popup_content_list">
+        <!-- Member 1 -->
+        <div class="wa__popup_content_item">
+          <a target="_blank" href="https://api.whatsapp.com/send?phone=7838090428" class="rounded wa__stt wa__stt_online">
+            <div class="wa__popup_avatar" style="background-image: url('#');">
+            </div>
+            <div class="wa__popup_txt">
+              <div class="wa__member_name">Mr Y</div>
+              <div class="wa__member_duty">Customer Support</div>
+            </div>
+          </a>
+        </div>
+
+        <!-- Member 2 -->
+        <div class="wa__popup_content_item">
+          <a target="_blank" href="https://web.whatsapp.com/send?phone=8797529661" class="rounded wa__stt wa__stt_online">
+            <div class="wa__popup_avatar" style="background-image: url('#');">
+            </div>
+            <div class="wa__popup_txt">
+              <div class="wa__member_name">Mr X</div>
+              <div class="wa__member_duty">Sale Support</div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <!-- /.wa__popup_content_list -->
+    </div>
+    <!-- /.wa__popup_content -->
+  </div>
+
+  <script>
+    document.querySelector('.wa__btn_popup').addEventListener('click', function() {
+      const chatBox = document.querySelector('.wa__popup_chat_box');
+      if (chatBox.style.display === 'none' || chatBox.style.display === '') {
+        chatBox.style.display = 'block';
+      } else {
+        chatBox.style.display = 'none';
+      }
+    });
+  </script>
       <!-- footer section end -->
       <!-- copyright section start -->
-      <div class="copyright_section">
-         <div class="container">
-            <p class="copyright_text">2024 All Rights Reserved. Design by <a href="https://html.design">Free html  Templates</a> Distribution by <a href="https://themewagon.com">ThemeWagon</a></p>
-         </div>
-      </div>
+     
       <!-- copyright section end -->
       <!-- Javascript files-->
       <script src="js/jquery.min.js"></script>
