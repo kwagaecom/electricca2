@@ -969,50 +969,256 @@ img {
       </div>
       <!-- contact section end -->
       <!-- footer section start -->
-      <div class="footer_section">
-         <div class="container">
-            <div class="footer_sectio_2">
-               <div class="row">
-                  <div class="col-lg-4 col-md-4">
-                     <h2 class="useful_text">Quick Links</h2>
-                     <div class="footer_menu">
-                        <ul>
-                           <li class="active"><a href="index.html">Home</a></li>
-                           <li><a href="about.html">About</a></li>
-                           <li><a href="service.html">Services</a></li>
-                           <li><a href="blog.html">Blog</a></li>
-                           <li><a href="testimonial.html">Testimonial</a></li>
-                           <li><a href="contact.html">Contact Us</a></li>
-                        </ul>
-                     </div>
-                  </div>
-                  <div class="col-lg-4 col-md-4">
-                     <h2 class="useful_text">Blog</h2>
-                     <p class="footer_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p>
-                     <div class="social_icon">
-                        <ul>
-                           <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                           <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                           <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                        </ul>
-                     </div>
-                  </div>
-                  <div class="col-lg-4 col-md-4">
-                     <h2 class="useful_text">Newsletter</h2>
-                     <input type="text" class="Enter_text" placeholder="Enter Your Email" name="Enter Your Email">
-                     <div class="subscribe_bt"><a href="#">Subscribe</a></div>
-                  </div>
-               </div>
+     <style>
+/* Container for the map background */
+.map-container {
+  position: relative;
+  height: 450px;
+  width: 100%;
+}
+
+/* Overlay to darken the map */
+.map-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Darkens the map */
+  z-index: 1;
+}
+
+/* Ensures the footer content is on top of the map */
+.container {
+  position: relative;
+  z-index: 2;
+}
+
+/* Quick contact info styles */
+.quick-contact-info {
+  color: #fff; /* White text for contrast */
+}
+
+.icon-wrap {
+  font-size: 24px;
+  color: #fff;
+}
+
+.caption {
+  display: block;
+  margin-top: 10px;
+  font-size: 16px;
+  color: #fff;
+}
+
+/* Style for the copyright and other links */
+.site-footer p, .site-footer a {
+  color: #fff;
+}
+
+a:hover {
+  color: #ddd;
+}
+</style>
+   <footer align="center"class="footer">
+        <div class="footer-buttons">
+            <a href="#header"><button type="button" class="btn btn-info btn-sm">Home</button></a>
+             <a href="#about"><button type="button" class="btn btn-secondary btn-sm">About</button></a>
+               <a href="#why-us"><button type="button" class="btn btn-warning btn-sm">Why Choose</button></a>
+<a href="#gallery"><button type="button" class="btn btn-success btn-sm">Gallery</button></a>
+<a href="#services"><button type="button" class="btn btn-light btn-sm">Services</button></a>
+<a href="#reviews"><button type="button" class="btn btn-info btn-sm">Review</button></a>
+             
+        </div>
+
+
+
+<!-- Don't forget to include Font Awesome in your HTML -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+        <div class="contact-info" style="text-align: right; margin-right: 30px;">
+  <div>
+    <b>Contact:</b> +91 12345 67890 <span style="margin-left: 20px;"><b>Email:</b> <a href="mailto:contact@accupressure.com">contact@accupressure.com</a></span>
+</div>
+</div>
+<style>
+        .copyright {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #f8f9fa;
+            border-top: 1px solid #e0e0e0;
+        }
+        .copyright span {
+            display: inline-block;
+            margin-left: 50px;
+            color: #333;
+            font-size: 14px;
+        }
+        .copyright strong span {
+            color: #007bff; /* Change this to your preferred color */
+        }
+    </style>
+<div class="copyright">
+        <span>&copy; Copyright <strong><span id="yearSpan"></span> Accupressure</strong>. All Rights Reserved</span>
+    </div>
+<div class="credits">
+        <span>Powered By <a href="https://company.kwaga.ltd/"><span class="badge bg-primary">KraftyWebDesign</span></a></span>
+    </div>
+<script>
+        // Get the current year
+        const currentYear = new Date().getFullYear();
+        // Calculate the next year
+        const nextYear = currentYear + 1;
+        // Set the text in the span
+        document.getElementById('yearSpan').textContent = `${currentYear}-${nextYear}`;
+    </script>
+   
+<div align="left"class="contact-info">	
+<button type="button" style="margin-left: 10px; class="btn btn-primary">
+ <h5><span class="badge bg-primary">K</span> <span class="badge bg-secondary">W</span><span class="badge bg-danger">D</span><span class="badge bg-success">4.7</span>
+<span class="badge bg-info"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+
+</h5>
+
+</button>
+
+  </footer>
+ <style>
+    .wa__btn_popup {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 1000;
+    }
+
+    .wa__btn_popup .wa__btn_popup_icon {
+      width: 50px;
+      height: 50px;
+      background-color: #25D366;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    }
+
+    .wa__popup_chat_box {
+      position: fixed;
+      bottom: 80px;
+      right: 20px;
+      width: 300px;
+      display: none;
+      z-index: 1000;
+      border-radius: 0.25rem;
+      box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    }
+
+    .wa__popup_chat_box .wa__popup_heading {
+      background-color: #28a745;
+      color: #f8f9fa;
+      padding: 1rem 1.5rem;
+      border-top-left-radius: 0.25rem;
+      border-top-right-radius: 0.25rem;
+    }
+
+    .wa__popup_chat_box .wa__popup_content {
+      
+      margin: 1.5rem;
+    }
+
+    .wa__popup_chat_box .wa__popup_content_item {
+      margin-bottom: 0.5rem;
+    }
+
+    .wa__popup_chat_box .wa__popup_avatar {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-size: cover;
+      background-position: center center;
+    }
+
+    .wa__popup_chat_box .wa__popup_txt {
+      display: inline-block;
+      vertical-align: middle;
+      margin-left: 10px;
+    }
+
+    .wa__popup_chat_box .wa__popup_txt .wa__member_name {
+      font-weight: bold;
+    }
+
+    .wa__popup_chat_box .wa__popup_txt .wa__member_duty {
+      color: #6c757d;
+    }
+
+    .wa__popup_chat_box a {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      color: inherit;
+    }
+  </style>
+
+  <div class="wa__btn_popup">
+    <div class="wa__btn_popup_icon">
+      <i class="fa fa-2x fa-comments"></i>
+    </div>
+  </div>
+
+  <div class="wa__popup_chat_box wa__pending wa__lauch">
+    <div class="wa__popup_heading">
+      <div class="fw-bold wa__popup_title">Start a Conversation</div>
+      <div class="small wa__popup_intro">
+        Hi! Click one of our members below to chat on <strong>)</strong>
+      </div>
+    </div>
+
+   <div class="wa__popup_content wa__popup_content_left">
+       <!--<div class="small text-secondary wa__popup_notice">
+        Tim kami biasanya membalas dalam hitungan menit
+      </div>-->
+
+      <div class="wa__popup_content_list">
+        <!-- Member 1 -->
+        <div class="wa__popup_content_item">
+          <a target="_blank" href="https://api.whatsapp.com/send?phone=7838090428" class="rounded wa__stt wa__stt_online">
+            <div class="wa__popup_avatar" style="background-image: url('#');">
             </div>
-         </div>
+            <div class="wa__popup_txt">
+              <div class="wa__member_name">Mr Y</div>
+              <div class="wa__member_duty">Customer Support</div>
+            </div>
+          </a>
+        </div>
+
+        <!-- Member 2 -->
+        <div class="wa__popup_content_item">
+          <a target="_blank" href="https://web.whatsapp.com/send?phone=8797529661" class="rounded wa__stt wa__stt_online">
+            <div class="wa__popup_avatar" style="background-image: url('#');">
+            </div>
+            <div class="wa__popup_txt">
+              <div class="wa__member_name">Mr X</div>
+              <div class="wa__member_duty">Sale Support</div>
+            </div>
+          </a>
+        </div>
       </div>
-      <!-- footer section end -->
-      <!-- copyright section start -->
-      <div class="copyright_section">
-         <div class="container">
-            <p class="copyright_text">2024 All Rights Reserved. Design by <a href="https://html.design">Free html  Templates</a> Distribution by <a href="https://themewagon.com">ThemeWagon</a></p>
-         </div>
-      </div>
+      <!-- /.wa__popup_content_list -->
+    </div>
+    <!-- /.wa__popup_content -->
+  </div>
+
+  <script>
+    document.querySelector('.wa__btn_popup').addEventListener('click', function() {
+      const chatBox = document.querySelector('.wa__popup_chat_box');
+      if (chatBox.style.display === 'none' || chatBox.style.display === '') {
+        chatBox.style.display = 'block';
+      } else {
+        chatBox.style.display = 'none';
+      }
+    });
+  </script>
       <!-- copyright section end -->
       <!-- Javascript files-->
       <script src="js/jquery.min.js"></script>
