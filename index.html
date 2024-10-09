@@ -210,59 +210,183 @@ socialShareButtons.forEach(function (button) {
 
   </script>
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      <div class="site-wrap" id="home-section">
 
+      <div class="site-mobile-menu site-navbar-target">
+        <div class="site-mobile-menu-header">
+          <div class="site-mobile-menu-close mt-3">
+            <span class="icon-close2 js-menu-toggle"></span>
+          </div>
+        </div>
+        <div class="site-mobile-menu-body"></div>
+      </div>
 
-  <header class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="index.html">
-      <img src="images/logo.png" alt="Logo" style="max-height: 40px;">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+<section class="row align-items-center py-1 px-xl-2">
+    <div class="col-lg-3">
+        <a href="#" class="text-decoration-none">
+            <h5><span class="text-primary">ACCU</span><span class="text-secondary">PRESSURE</span></h5>
+        </a>
+    </div>
+    <div class="col-lg-3 text-right">
+        <a href="https://www.google.com/maps?q=123+Street,+New+York,+USA" target="_blank" style="text-decoration: none; color: inherit;">
+            <div class="d-inline-flex align-items-center">
+                <i class="fas fa-location-dot"></i>
+                <div class="text-left ml-2">
+                    <h5><span class="badge bg-secondary">123 Street, Delhi</span></h5>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="col-lg-3 text-right">
+        <a href="mailto:help@hostel.com" style="text-decoration: none; color: inherit;">
+            <div class="d-inline-flex align-items-center">
+                <i class="fa fa-2x fa-envelope text-primary mr-3"></i>
+                <div class="text-left">
+                    <h5><span class="badge bg-danger">service@accupressure.com</span></h5>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="col-lg-3 text-right">
+        <div class="d-inline-flex align-items-center">
+            <i class="fa fa-2x fa-phone text-primary mr-3"></i>
+            <div class="text-left">
+                <h5><span class="badge bg-success">+91 34578 67895</span></h5>
+            </div>
+        </div>
+    </div>
+</section>
+
+<nav class="navbar">
+  <div class="container">
+    <!-- Logo -->
+   
+    <a href="#home" class="navbar-brand p-0">
+                            <h1 class="text-primary"><i class="fas fa-accupressure me-5"></i>ACUP</h1>
+                        </a>
+    <!-- Mobile menu toggle button (three bars) -->
+    <button id="navbar-toggle" class="navbar-toggler" type="button">
+      <span class="navbar-toggler-icon">&#9776;</span> <!-- Unicode for hamburger icon -->
     </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#home">
-            <button type="button" class="btn btn-primary">Home</button>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#about">
-            <button type="button" class="btn btn-secondary">About Us</button>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#services">
-            <button type="button" class="btn btn-success">Services</button>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#reviews">
-            <button type="button" class="btn btn-info">Testimonial</button>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contact">
-            <button type="button" class="btn btn-dark">Contact Us</button>
-          </a>
-        </li>
+
+    <!-- Navbar links -->
+    <div id="navbar-menu" class="navbar-collapse">
+      <ul class="navbar-nav" align="center">
+       
+
+<div align= "justify-content-center"class="btn-group" role="group" aria-label="Basic mixed styles example">
+   <li class="nav-item"><a class="nav-link" href="#home"> <button type="button" class="btn-sm btn-danger">Home</button></a></li>
+<li class="nav-item"><a class="nav-link" href="#about"><button type="button" class="btn-sm btn-primary">About </button></a></li>
+<li class="nav-item"><a class="nav-link" href="#services"> <button type="button" class="btn-sm btn-secondary">Services</button></a></li>
+
+                      
+
+  <li class="nav-item"><a class="nav-link" href="#gallery"> <button type="button" class="btn-sm btn-info">Gallery</button></a></li>
+<li class="nav-item"><a class="nav-link" href="#why-us"><button type="button" class="btn-sm btn-success">Why</button></a></li>
+<li class="nav-item"><a class="nav-link" href="#reviews"><button type="button" class="btn-sm btn-dark">Reviews</button></a></li>
+<li class="nav-item"><a class="nav-link" href="#contact"><button type="button" class="btn-sm btn-light">Contact</button></a></li>
+</div>
+
+
+
       </ul>
     </div>
-  </header>
+  </div>
+</nav>
+<style>
+  .btn {
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-right: 10px; /* Adjust the gap here */
+        }
 
-  <!-- jQuery, Popper.js, and Bootstrap JS -->
-  <!-- Bootstrap CSS -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        .btn:last-child {
+            margin-right: 0; /* Remove margin for the last button */
+        }
+/* Basic Navbar styling */
+.navbar {
+  background-color: #f8f9fa;
+  padding: 1rem;
+}
 
-<!-- jQuery (necessary for Bootstrap's JavaScript) -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+.navbar-toggler {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
 
-<!-- Popper.js (required for Bootstrap dropdowns/collapsible functionality) -->
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+.navbar-collapse {
+  display: none; /* Hidden by default */
+  flex-direction: row; /* Ensure items are in a row */
+}
 
-<!-- Bootstrap JavaScript -->
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+.navbar-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* Display menu items horizontally */
+  flex-direction: row; /* Ensure items are arranged in a row */
+  gap: 1rem; /* Space between items */
+}
+
+.navbar-nav .nav-item {
+  margin: 0;
+}
+
+.navbar-nav .nav-link {
+  text-decoration: none;
+  color: #333;
+  padding: 0.5rem; /* Add some padding to menu items */
+}
+
+/* Show menu when open */
+.navbar-collapse.show {
+  display: flex; /* Ensure it's displayed as flexbox */
+  justify-content: center; /* Center the items */
+  flex-direction: row; /* Ensure horizontal display */
+}
+
+/* Media query for larger screens */
+@media (min-width: 992px) {
+  .navbar-collapse {
+    display: flex; /* Keep it horizontal for larger screens */
+    justify-content: flex-end; /* Align to the right */
+  }
+
+  .navbar-toggler {
+    display: none;
+  }
+}
+
+.navbar {
+  background-color: #f8f9fa; /* Light background for the navbar */
+}
+
+.nav-item {
+  margin: 5px; /* Adds space between buttons */
+}
+
+.navbar-toggler {
+  border: none; /* Removes default border from toggle button */
+}
+
+<!-- JavaScript for toggling the menu on mobile -->
+</style>
+<script>
+ // JavaScript for toggling menu visibility
+document.getElementById('navbar-toggle').addEventListener('click', function() {
+  const navbarMenu = document.getElementById('navbar-menu');
+  
+  // Toggle the "show" class on the menu to display/hide it
+  navbarMenu.classList.toggle('show');
+});
+</script>
+
 
 
 
