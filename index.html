@@ -271,9 +271,9 @@ socialShareButtons.forEach(function (button) {
     <!-- Logo -->
    
    <a href="#home" class="navbar-brand p-0">
-                            <h1 class="text-primary"><i class="fas fa-hand-holding-water me-3"></i>Acuas</h1>
+                            <h1 class="text-primary"><i class="fas fa-lightbulb"></i>EleSer</h1>
                         </a>
-<a href="#" class="btn btn-primary rounded-pill d-inline-flex py-2 px-4" data-bs-toggle="modal" data-bs-target="#orderModal">Order Now</a>
+<a href="#" class="btn btn-primary rounded-pill d-inline-flex py-2 px-4" data-bs-toggle="modal" data-bs-target="#electricServiceModal">Order Now</a>
     <!-- Mobile menu toggle button (three bars) -->
     <button id="navbar-toggle" class="navbar-toggler" type="button">
       <span class="navbar-toggler-icon">&#9776;</span> <!-- Unicode for hamburger icon -->
@@ -427,7 +427,92 @@ document.getElementById('navbar-toggle').addEventListener('click', function() {
 
 </script>
 
+<!-- Electric Service Request Modal -->
+<div class="modal fade" id="electricServiceModal" tabindex="-1" aria-labelledby="electricServiceModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="electricServiceModalLabel">Request Electric Service</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="electricServiceForm">
+                    <!-- Service Type -->
+                    <div class="mb-3">
+                        <label for="serviceType" class="form-label">Select Service Type</label>
+                        <select class="form-control" id="serviceType" required>
+                            <option value="installation">New Installation</option>
+                            <option value="repair">Repair</option>
+                            <option value="billing">Other</option>
+                        </select>
+                    </div>
 
+                    <!-- Full Name -->
+                    <div class="mb-3">
+                        <label for="fullName" class="form-label">Full Name</label>
+                        <input type="text" class="form-control" id="fullName" placeholder="Enter your full name" required>
+                    </div>
+
+                    <!-- Address -->
+                    <div class="mb-3">
+                        <label for="address" class="form-label">Service Address</label>
+                        <input type="text" class="form-control" id="address" placeholder="Enter your address" required>
+                    </div>
+
+                    <!-- Phone Number -->
+                    <div class="mb-3">
+                        <label for="phone" class="form-label">Phone Number</label>
+                        <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number" required pattern="[0-9]{10}">
+                    </div>
+
+                    <!-- Date and Time -->
+                    <div class="mb-3">
+                        <label for="preferredDate" class="form-label">Preferred Service Date</label>
+                        <input type="date" class="form-control" id="preferredDate" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="preferredTime" class="form-label">Preferred Service Time</label>
+                        <input type="time" class="form-control" id="preferredTime" required>
+                    </div>
+
+                    <!-- Additional Notes -->
+                    <div class="mb-3">
+                        <label for="notes" class="form-label">Additional Notes</label>
+                        <textarea class="form-control" id="notes" placeholder="Describe your issue or request" rows="3"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary w-100">Submit Request</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+ <script>
+        // JavaScript to handle form submission
+        document.getElementById("contactForm").addEventListener("submit", function(event) {
+            event.preventDefault(); // Prevent the default form submission
+
+            const formData = new FormData(event.target);
+            const email = 'kwagaecom@gmail.com'; // Your Gmail address
+            const subject = 'Contact Form Submission'; // Subject for the email
+
+            let message = "Form Submission Details:\n\n";
+
+            // Iterate over form data and append to message
+            for (const [key, value] of formData.entries()) {
+                message += `${key}: ${value}\n`;
+            }
+
+            // Create a "mailto" URL with the pre-filled email subject and body
+            const mailtoURL = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(message)}`;
+
+            // Open the default email client with the pre-filled email
+            window.location.href = mailtoURL;
+
+            // You can also display a success message or redirect the user to a thank-you page
+        });
+    </script>
 
 
       <!-- header section end -->
