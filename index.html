@@ -534,9 +534,7 @@ document.getElementById('navbar-toggle').addEventListener('click', function() {
                             <div class="col-md-12">
                                 <h5 class="banner_taital">Residential Electrical Services</h5>
                                 <p class="banner_text">We provide top-notch residential electrical services, ensuring your home is safe and efficient. From installations to repairs, our experts are here to help.</p>
-                                <div class="read_bt">
-                                    <a href="#" class="enquiry-button" data-bs-toggle="modal" data-bs-target="#inquiryModal1">Enquiry Now</a>
-                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -547,9 +545,7 @@ document.getElementById('navbar-toggle').addEventListener('click', function() {
                             <div class="col-md-12">
                                 <h5 class="banner_taital">Commercial Electrical Service</h5>
                                 <p class="banner_text">Our commercial electrical services are designed to meet the unique needs of businesses. We handle everything from new installations to ongoing maintenance.</p>
-                                <div class="read_bt">
-                                    <a href="#" class="enquiry-button" data-bs-toggle="modal" data-bs-target="#inquiryModal2">Enquiry Now</a>
-                                </div>
+                               
                             </div>
                         </div>
                     </div>
@@ -560,9 +556,7 @@ document.getElementById('navbar-toggle').addEventListener('click', function() {
                             <div class="col-md-12">
                                 <h5 class="banner_taital">Industrial Electrical Services</h5>
                                 <p class="banner_text">Our industrial electrical services focus on high-voltage systems, machinery, and infrastructure to ensure your operations run smoothly and safely.</p>
-                                <div class="read_bt">
-                                    <a href="#" class="enquiry-button" data-bs-toggle="modal" data-bs-target="#inquiryModal3">Enquiry Now</a>
-                                </div>
+                               
                             </div>
                         </div>
                     </div>
@@ -573,9 +567,7 @@ document.getElementById('navbar-toggle').addEventListener('click', function() {
                             <div class="col-md-12">
                                 <h5 class="banner_taital">Electrical Maintenance Services</h5>
                                 <p class="banner_text">Our electrical maintenance services ensure that your systems are functioning optimally, preventing unexpected breakdowns and increasing safety.</p>
-                                <div class="read_bt">
-                                    <a href="#" class="enquiry-button" data-bs-toggle="modal" data-bs-target="#inquiryModal4">Enquiry Now</a>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -611,9 +603,9 @@ document.getElementById('navbar-toggle').addEventListener('click', function() {
       <div class="row">
          <div class="col-md-6">
             <div class="about_taital_main">
-               <h1 class="slightly_text">Your Reliable Partner in Electrical Services</h1>
+               <h1 class="slightly_text">Your Reliable Supporter in Electrical Services</h1>
                <p class="lorem_text">
-                  Our company has been a trusted provider of electrical services for over a decade. 
+                  Our Shop has been a trusted provider of electrical services for over a decade. 
                   We specialize in residential, commercial, and industrial electrical solutions. 
                   Our dedicated team ensures the highest safety standards and quality workmanship in every project.
                </p>
@@ -1013,7 +1005,7 @@ document.addEventListener('DOMContentLoaded', () => {
       <li><strong>Electrical troubleshooting and maintenance:</strong> Diagnosing and repairing electrical issues in large-scale industrial systems.</li>
     </ul>
                </div>
-                <div class="enquiry_bt" align="center"><a href="#"><button type="button" class="enquiry-button" data-bs-toggle="modal" data-bs-target="#inquiryModal3"class="btn btn-primary">Enquiry Now</button></a></div>
+                <div class="enquiry_bt" align="center"><a href="#"><button type="button" class="enquiry-button" data-bs-toggle="modal" data-bs-target="#inquiryModal2"class="btn btn-primary">Enquiry Now</button></a></div>
             </div>
             <div class="col-lg-3 col-sm-6">
                <div class="service_box">
@@ -1050,44 +1042,65 @@ document.addEventListener('DOMContentLoaded', () => {
 </div>
 
 
-    <div class="modal fade" id="inquiryModal1" tabindex="-1" aria-labelledby="inquiryModalLabel1" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                           <h7 class="my-4"><span class="badge bg-primary">Electrical </span> <span class="badge bg-secondary">Inspection </span><span class="badge bg-success"> Services</span></h7>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <div class="text-center mb-3">
-                        <img src="images/building-icon.png" alt="Residential Services Icon" alt="building icon" class="img-fluid" style="max-width: 100px;">
+  <div class="modal fade" id="inquiryModal1" tabindex="-1" aria-labelledby="inquiryModalLabel1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h6 class="my-4 text-center">
+                    <span class="badge bg-warning text-dark">Electrical </span>
+                    <span class="badge bg-secondary">Inspection</span>
+                    <span class="badge bg-success"> Services</span>
+                </h6>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+             <div class="modal-body" style="background-image: url('https://plus.unsplash.com/premium_photo-1716999684531-b8f40731a827?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8RWxlY3RyaWMlMjBzZXJ2aWNlfGVufDB8fDB8fHww'); background-size: cover; background-position: center;">
+              
+                <form id="contactForm">
+                    <div class="row mb-3">
+                        <div class="col-md-12">
+                            <label for="serviceType" class="form-label">Select Service Type</label>
+                            <select class="form-select" name="Service Type"id="serviceType" required>
+                                <option selected disabled>Choose service type...</option>
+                                <option value="Light Installation & Repair">Light Installation & Repair</option>
+                                <option value="Wiring & Rewiring">Wiring & Rewiring</option>
+                                <option value="Outlet & Switch Installation">Outlet & Switch Installation</option>
+                                <option value="Electrical Panel Upgrade">Electrical Panel Upgrades</option>
+                                <option value="Home Automation">Home Automation</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
                     </div>
-                   <form id="contactForm">
-                        <div class="row mb-3">
-                            <div class="col-md-6">
-                                <label for="name4" class="form-label">Name</label>
-                                <input type="text" class="form-control" id="name4" placeholder="Enter your name">
-                            </div>
-                            <div class="col-md-6">
-                                <label for="email4" class="form-label">Email</label>
-                                <input type="email" class="form-control" id="email4" placeholder="Enter your email">
-                            </div>
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="name4" name="Name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name4" placeholder="Enter your name" required>
                         </div>
-                        <div class="row mb-3">
-                            <div class="col-md-6">
-                                <label for="phone4" class="form-label">Phone Number</label>
-                                <input type="tel" class="form-control" id="phone4" placeholder="Enter your phone number">
-                            </div>
-                            <div class="col-md-6">
-                                <label for="landline4" class="form-label">Landline Number</label>
-                                <input type="tel" class="form-control" id="landline4" placeholder="Enter your landline number">
-                            </div>
+                        <div class="col-md-6">
+                            <label for="email4" name="Email"class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email4" placeholder="Enter your email" required>
                         </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </form>
-                </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="phone4" name="Phone"class="form-label">Phone Number</label>
+                            <input type="tel" class="form-control" id="phone4" placeholder="Enter your phone number" required>
+                        </div>
+                           <div class="col-md-6">
+                        <label for="address" name="Address"class="form-label"> Address</label>
+                        <input type="text" class="form-control" id="address" placeholder="Enter your address" required>
+                    </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="notes" class="form-label">Additional </label>
+                        <textarea class="form-control" id="notes" placeholder="Describe your issue " rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-warning w-100">Submit Order</button>
+                </form>
             </div>
         </div>
     </div>
+</div>
+
   <script>
     document.getElementById("contactForm").addEventListener("submit", function(event) {
       event.preventDefault(); // Prevent the default form submission
@@ -1113,122 +1126,170 @@ document.addEventListener('DOMContentLoaded', () => {
       alert("Form submitted successfully!");
     });
   </script>
-    <div class="modal fade" id="inquiryModal2" tabindex="-1" aria-labelledby="inquiryModalLabel2" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
+   <div class="modal fade" id="inquiryModal2" tabindex="-1" aria-labelledby="inquiryModalLabel2" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+             <div class="modal-header">
                         <h7 class="my-4"><span class="badge bg-primary">Commercial </span> <span class="badge bg-secondary">Electrical </span><span class="badge bg-success"> Services</span></h7>
                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body">
-                    <div class="text-center mb-3">
-                        <img src="images/building-icon.png" alt="Residential Services Icon" alt="building icon" class="img-fluid" style="max-width: 100px;">
+             <div class="modal-body" style="background-image: url('https://images.unsplash.com/photo-1458007683879-47560d7e33c3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y29tbWVyY2lhbCUyMEVsZWN0cmljJTIwc2VydmljZXxlbnwwfHwwfHx8MA%3D%3D'); background-size: cover; background-position: center;">
+              
+                <form id="contactForm">
+                    <div class="row mb-3">
+                        <div class="col-md-12">
+                            <label for="serviceType" class="form-label">Select Service Type</label>
+                            <select class="form-select" id="serviceType" required>
+                                <option selected disabled>Choose service type...</option>
+                                <option value="High Voltage Installations">High Voltage Installations</option>
+                                <option value="Motor and Machinery Wiring">Motor and Machinery Wiring</option>
+                                <option value="Control Systems and Automation">Control Systems and Automation</option>
+                              <option value="Electrical troubleshooting & Maintenance">Electrical troubleshooting & Maintenance </option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
                     </div>
-                    <form>
-                        <div class="row mb-3">
-                            <div class="col-md-6">
-                                <label for="name4" class="form-label">Name</label>
-                                <input type="text" class="form-control" id="name4" placeholder="Enter your name">
-                            </div>
-                            <div class="col-md-6">
-                                <label for="email4" class="form-label">Email</label>
-                                <input type="email" class="form-control" id="email4" placeholder="Enter your email">
-                            </div>
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="name4" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name4" placeholder="Enter your name" required>
                         </div>
-                        <div class="row mb-3">
-                            <div class="col-md-6">
-                                <label for="phone4" class="form-label">Phone Number</label>
-                                <input type="tel" class="form-control" id="phone4" placeholder="Enter your phone number">
-                            </div>
-                            <div class="col-md-6">
-                                <label for="landline4" class="form-label">Landline Number</label>
-                                <input type="tel" class="form-control" id="landline4" placeholder="Enter your landline number">
-                            </div>
+                        <div class="col-md-6">
+                            <label for="email4" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email4" placeholder="Enter your email" required>
                         </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </form>
-                </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="phone4" class="form-label">Phone Number</label>
+                            <input type="tel" class="form-control" id="phone4" placeholder="Enter your phone number" required>
+                        </div>
+                           <div class="col-md-6">
+                        <label for="address" class="form-label"> Address</label>
+                        <input type="text" class="form-control" id="address" placeholder="Enter your address" required>
+                    </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="notes" class="form-label">Additional </label>
+                        <textarea class="form-control" id="notes" placeholder="Describe your issue " rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-warning w-100">Submit Order</button>
+                </form>
             </div>
         </div>
     </div>
+</div>
 
-    <div class="modal fade" id="inquiryModal3" tabindex="-1" aria-labelledby="inquiryModalLabel3" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
+
+   <div class="modal fade" id="inquiryModal3" tabindex="-1" aria-labelledby="inquiryModalLabel3" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+              <div class="modal-header">
                         <h7 class="my-4"><span class="badge bg-primary">Industrial </span> <span class="badge bg-secondary">Electrical </span><span class="badge bg-success"> Services</span></h7>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body">
-                    <div class="text-center mb-3">
-                        <img src="images/building-icon.png" alt="Residential Services Icon" alt="building icon" class="img-fluid" style="max-width: 100px;">
+             <div class="modal-body" style="background-image: url('https://plus.unsplash.com/premium_photo-1682146920372-bd950e25125d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGluZHVzdHJpYWwlMjBFbGVjdHJpYyUyMHNlcnZpY2V8ZW58MHx8MHx8fDA%3D'); background-size: cover; background-position: center;">
+              
+                <form id="contactForm">
+                    <div class="row mb-3">
+                        <div class="col-md-12">
+                            <label for="serviceType" class="form-label">Select Service Type</label>
+                            <select class="form-select" id="serviceType" required>
+                                <option selected disabled>Choose service type...</option>
+                                <option value="Lighting Systems">Lighting Systems</option>
+                                <option value="Electrical Wiring for Commercial Buildings">Electrical Wiring for Commercial Buildings</option>
+                                <option value="Emergency lighting Systems">Emergency lighting Systems</option>
+                                <option value="Electrical Panel Upgrade">Electrical System Upgrade </option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
                     </div>
-                    <form>
-                        <div class="row mb-3">
-                            <div class="col-md-6">
-                                <label for="name4" class="form-label">Name</label>
-                                <input type="text" class="form-control" id="name4" placeholder="Enter your name">
-                            </div>
-                            <div class="col-md-6">
-                                <label for="email4" class="form-label">Email</label>
-                                <input type="email" class="form-control" id="email4" placeholder="Enter your email">
-                            </div>
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="name4" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name4" placeholder="Enter your name" required>
                         </div>
-                        <div class="row mb-3">
-                            <div class="col-md-6">
-                                <label for="phone4" class="form-label">Phone Number</label>
-                                <input type="tel" class="form-control" id="phone4" placeholder="Enter your phone number">
-                            </div>
-                            <div class="col-md-6">
-                                <label for="landline4" class="form-label">Landline Number</label>
-                                <input type="tel" class="form-control" id="landline4" placeholder="Enter your landline number">
-                            </div>
+                        <div class="col-md-6">
+                            <label for="email4" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email4" placeholder="Enter your email" required>
                         </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </form>
-                </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="phone4" class="form-label">Phone Number</label>
+                            <input type="tel" class="form-control" id="phone4" placeholder="Enter your phone number" required>
+                        </div>
+                           <div class="col-md-6">
+                        <label for="address" class="form-label"> Address</label>
+                        <input type="text" class="form-control" id="address" placeholder="Enter your address" required>
+                    </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="notes" class="form-label">Additional </label>
+                        <textarea class="form-control" id="notes" placeholder="Describe your issue " rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-warning w-100">Submit Order</button>
+                </form>
             </div>
         </div>
     </div>
+</div>
+
 
     <div class="modal fade" id="inquiryModal4" tabindex="-1" aria-labelledby="inquiryModalLabel4" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
+    <div class="modal-dialog">
+        <div class="modal-content">
+               <div class="modal-header">
                       <h7 class="my-4"><span class="badge bg-primary">Electrical </span> <span class="badge bg-secondary">Maintaienance </span><span class="badge bg-success"> Services</span></h7>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body">
-                    <div class="text-center mb-3">
-                        <img src="images/building-icon.png" alt="Residential Services Icon" alt="building icon" class="img-fluid" style="max-width: 100px;">
+             <div class="modal-body" style="background-image: url('https://media.istockphoto.com/id/905146534/photo/business-services-technical-help-gear-configuration-support-center-contact-us-landing-page.webp?a=1&b=1&s=612x612&w=0&k=20&c=ZLyMvlaeqNS_oQD2m_IN3YgL-vh91q4aBBiO5xmmjw0='); background-size: cover; background-position: center;">
+              
+                <form id="contactForm">
+                    <div class="row mb-3">
+                        <div class="col-md-12">
+                            <label for="serviceType" class="form-label">Select Service Type</label>
+                            <select class="form-select" id="serviceType" required>
+                                <option selected disabled>Choose service type...</option>
+                                <option value="Routine Electrical Inspections">Routine Electrical Inspections</option>
+                                <option value="Preventive Maintenan">Preventive Maintenance</option>
+                                <option value="System Upgrades">System Upgrades</option>
+                                <option value="Backup generator Installation and Maintenance">Backup generator Installation and Maintenance </option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
                     </div>
-                    <form>
-                        <div class="row mb-3">
-                            <div class="col-md-6">
-                                <label for="name4" class="form-label">Name</label>
-                                <input type="text" class="form-control" id="name4" placeholder="Enter your name">
-                            </div>
-                            <div class="col-md-6">
-                                <label for="email4" class="form-label">Email</label>
-                                <input type="email" class="form-control" id="email4" placeholder="Enter your email">
-                            </div>
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="name4" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name4" placeholder="Enter your name" required>
                         </div>
-                        <div class="row mb-3">
-                            <div class="col-md-6">
-                                <label for="phone4" class="form-label">Phone Number</label>
-                                <input type="tel" class="form-control" id="phone4" placeholder="Enter your phone number">
-                            </div>
-                            <div class="col-md-6">
-                                <label for="landline4" class="form-label">Landline Number</label>
-                                <input type="tel" class="form-control" id="landline4" placeholder="Enter your landline number">
-                            </div>
+                        <div class="col-md-6">
+                            <label for="email4" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email4" placeholder="Enter your email" required>
                         </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </form>
-                </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="phone4" class="form-label">Phone Number</label>
+                            <input type="tel" class="form-control" id="phone4" placeholder="Enter your phone number" required>
+                        </div>
+                           <div class="col-md-6">
+                        <label for="address" class="form-label"> Address</label>
+                        <input type="text" class="form-control" id="address" placeholder="Enter your address" required>
+                    </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="notes" class="form-label">Additional </label>
+                        <textarea class="form-control" id="notes" placeholder="Describe your issue " rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-warning w-100">Submit Order</button>
+                </form>
             </div>
         </div>
     </div>
+</div>
+
 
 </section>
 
@@ -1246,7 +1307,7 @@ img {
   
       <!-- about section end -->
       <!-- testimonial section start -->
-      <div class="testimonial_section layout_padding"id="reviews">
+      <div class="testimonial_section layout_padding" id="review">
          <div class="container">
             <div class="row">
                <div class="col-sm-12">
@@ -1259,7 +1320,7 @@ img {
                   <div class="carousel-item active">
                      <div class="testimonial_section_2">
                         <div class="testimonial_left">
-                           <div class="client_img"><img src="images/client-img.png"></div>
+                           <div class="client_img"><img src="https://media.istockphoto.com/id/1256139198/photo/handsome-man-stock-photo.webp?a=1&b=1&s=612x612&w=0&k=20&c=RMT7oSSRTgm0ZnwlLDjIZSW-L7mBYc475CMt-0Bdqqk="></div>
                         </div>
                         <div class="testimonial_right">
                            <h4 class="markro_text">Suresh</h4>
@@ -1271,7 +1332,7 @@ img {
                   <div class="carousel-item">
                      <div class="testimonial_section_2">
                         <div class="testimonial_left">
-                           <div class="client_img"><img src="images/client-img.png"></div>
+                           <div class="client_img"><img src="https://media.istockphoto.com/id/1216426615/photo/portrait-of-happy-man-at-white-background-stock-photo.webp?a=1&b=1&s=612x612&w=0&k=20&c=918lVAEwM-O31ruB3X9b8eenm80hXl1MKqdMWiIPHK4="></div>
                         </div>
                         <div class="testimonial_right">
                            <h4 class="markro_text">Mohan</h4>
@@ -1283,7 +1344,7 @@ img {
                   <div class="carousel-item">
                      <div class="testimonial_section_2">
                         <div class="testimonial_left">
-                           <div class="client_img"><img src="images/client-img.png"></div>
+                           <div class="client_img"><img src="https://media.istockphoto.com/id/1223342989/photo/young-indian-man-relaxing-at-home.webp?a=1&b=1&s=612x612&w=0&k=20&c=pz2TnKKcDxGyE9vyDnUn5zJQUfqV9o9QIibbjICni08="></div>
                         </div>
                         <div class="testimonial_right">
                            <h4 class="markro_text">Nikhil</h4>
@@ -1330,22 +1391,22 @@ img {
   <div class="carousel-inner" align="center">
     <!-- First Video -->
     <div class="carousel-item active">
-     <iframe width="697" height="392" src="https://www.youtube.com/embed/qAAMQT3k49I" title="Start Your School In 75000 | Disruptive Business Model | Dr Vivek Bindra" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+     <iframe width="697" height="392" src="https://www.youtube.com/embed/p4Ua8FPZVHA" title="How to Start an Electronic Repair Shop with Full Case Study? – [Hindi] – Quick Support" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
 
     <!-- Second Video -->
     <div class="carousel-item">
-    <iframe width="697" height="392" src="https://www.youtube.com/embed/6DUxIwvyd9A" title="School Kholne ka Easy Plan - How to Open a School? स्कूल खोलने का आसान तरीका!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="697" height="392" src="https://www.youtube.com/embed/lCEWEGKoM7I" title="how to start electrical business, electrical shop business, electrical business @BUSINESSDOST" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
 
     <!-- Third Video -->
     <div class="carousel-item">
-      <iframe width="697" height="392" src="https://www.youtube.com/embed/tCSel_N9Sd0" title="How to start a private school | Private school kaise khole | गांव में स्कूल कैसे खोलें ?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe width="697" height="392" src="https://www.youtube.com/embed/JDJYiKlsMFE" title="Online Electrical Services Business Kaise kare? How to start Business in hindi || Faizan Msu..." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
 
     <!-- Fourth Video -->
     <div class="carousel-item">
-     <iframe width="697" height="392" src="https://www.youtube.com/embed/ONOZBilNVTg" title="How To Open Schools In India- School Business Plan, School Business Profits,New Business Ideas 2020" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+     <iframe width="697" height="392" src="https://www.youtube.com/embed/iyvfwpsFVWs" title="how to start an electrical business, electrical shop business idea and plan  @BUSINESSDOST" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
   </div>
 
