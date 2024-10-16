@@ -291,15 +291,25 @@ socialShareButtons.forEach(function (button) {
   <li class="nav-item">
     <a class="nav-link" href="#about"><button type="button" class="btn btn-sm btn-primary">About</button></a>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#services"><button type="button" class="btn btn-sm btn-secondary">Services</button></a>
+<li class="nav-item">
+    <a class="nav-link" href="#why"><button type="button" class="btn btn-sm btn-primary">Why</button></a>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="#gallery"><button type="button" class="btn btn-sm btn-info">Gallery</button></a>
   </li>
   
   <li class="nav-item">
-    <a class="nav-link" href="#review"><button type="button" class="btn btn-sm btn-dark">Reviews</button></a>
+    <a class="nav-link" href="#services"><button type="button" class="btn btn-sm btn-secondary">Services</button></a>
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link" href="#review"><button type="button" class="btn btn-sm btn-light">Reviews</button></a>
+  </li>
+<li class="nav-item">
+    <a class="nav-link" href="#video"><button type="button" class="btn btn-sm btn-danger">Videos</button></a>
+  </li>
+<li class="nav-item">
+    <a class="nav-link" href="#faq"><button type="button" class="btn btn-sm btn-dark">FAQ</button></a>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="#contact"><button type="button" class="btn btn-sm btn-light">Contact</button></a>
@@ -645,6 +655,38 @@ document.getElementById('navbar-toggle').addEventListener('click', function() {
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<section id="why"style="padding: 50px 20px; background-color: #f4f4f9; text-align: center;">
+    <div style="max-width: 1200px; margin: 0 auto;">
+        <h2 style="font-size: 32px; margin-bottom: 30px; color: #333;">Why Choose Us for Your Electrical Needs?</h2>
+        <div style="display: flex; flex-wrap: wrap; justify-content: space-around; gap: 20px;">
+            <div style="background-color: white; border-radius: 10px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); padding: 20px; width: 300px; text-align: center; transition: transform 0.3s;">
+                <div style="font-size: 50px; color: #2d89ef; margin-bottom: 15px;">⚡</div>
+                <h3 style="font-size: 22px; margin-bottom: 15px; color: #333;">Licensed & Insured Professionals</h3>
+                <p style="font-size: 16px; color: #666;">Our team of certified electricians is fully licensed and insured, ensuring all your electrical work is done safely and to the highest standards.</p>
+            </div>
+            <div style="background-color: white; border-radius: 10px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); padding: 20px; width: 300px; text-align: center; transition: transform 0.3s;">
+                <div style="font-size: 50px; color: #2d89ef; margin-bottom: 15px;">⏰</div>
+                <h3 style="font-size: 22px; margin-bottom: 15px; color: #333;">Reliable & Timely Service</h3>
+                <p style="font-size: 16px; color: #666;">We pride ourselves on being punctual and delivering projects on time, whether it's a small repair or a large installation.</p>
+            </div>
+            <div style="background-color: white; border-radius: 10px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); padding: 20px; width: 300px; text-align: center; transition: transform 0.3s;">
+                <div style="font-size: 50px; color: #2d89ef; margin-bottom: 15px;">👨‍🔧</div>
+                <h3 style="font-size: 22px; margin-bottom: 15px; color: #333;">Customer-Focused Solutions</h3>
+                <p style="font-size: 16px; color: #666;">We provide tailored solutions for your specific needs and ensure you're informed every step of the way.</p>
+            </div>
+            <div style="background-color: white; border-radius: 10px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); padding: 20px; width: 300px; text-align: center; transition: transform 0.3s;">
+                <div style="font-size: 50px; color: #2d89ef; margin-bottom: 15px;">🔒</div>
+                <h3 style="font-size: 22px; margin-bottom: 15px; color: #333;">Safety First Approach</h3>
+                <p style="font-size: 16px; color: #666;">We implement best practices to ensure all work complies with the latest safety regulations and standards.</p>
+            </div>
+            <div style="background-color: white; border-radius: 10px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); padding: 20px; width: 300px; text-align: center; transition: transform 0.3s;">
+                <div style="font-size: 50px; color: #2d89ef; margin-bottom: 15px;">💰</div>
+                <h3 style="font-size: 22px; margin-bottom: 15px; color: #333;">Competitive Pricing</h3>
+                <p style="font-size: 16px; color: #666;">We offer transparent and fair pricing without hidden fees, ensuring you get quality work at an affordable price.</p>
+            </div>
+        </div>
+    </div>
+</section>
 
       <!-- service section start -->
 <section class="photo-gallery" id="gallery">
@@ -1387,7 +1429,7 @@ img {
   }
 </style>
 
-<section id="videoCarousel" class="carousel slide" data-bs-ride="carousel">
+<section id="videoCarousel" class="carousel slide" data-bs-ride="carousel" id="video">
   <div class="carousel-inner" align="center">
     <!-- First Video -->
     <div class="carousel-item active">
@@ -1417,6 +1459,50 @@ img {
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <!------ Include the above in your HEAD tag ---------->
+</br>
+<div style="max-width: 600px; margin: 20px auto; border: 2px solid #333; border-radius: 8px; overflow: hidden;" id="faq">
+  <div style="border-bottom: 1px solid #333;">
+    <button data-ui-tablist-tab style="width: 100%; padding: 15px; background-color: #ffdd00; border: none; text-align: left; font-size: 18px; font-weight: bold; color: #333; cursor: pointer;">🔌 Electric Service Overview</button>
+    <div data-ui-tablist-tabpanel style="padding: 15px; display: block;">
+      <div style="font-size: 16px; color: #333;">
+        Our electric service provides top-notch installations and repairs, ensuring safety and efficiency. We handle residential, commercial, and industrial electric systems.
+      </div>
+    </div>
+  </div>
+  <div style="border-bottom: 1px solid #333;">
+    <button data-ui-tablist-tab style="width: 100%; padding: 15px; background-color: #ffdd00; border: none; text-align: left; font-size: 18px; font-weight: bold; color: #333; cursor: pointer;">💡 Electrical Repairs</button>
+    <div data-ui-tablist-tabpanel style="padding: 15px; display: none;">
+      <div style="font-size: 16px; color: #333;">
+        We specialize in all types of electrical repairs, from fixing faulty wiring to upgrading panels, ensuring safety and compliance with local regulations.
+      </div>
+    </div>
+  </div>
+  <div>
+    <button data-ui-tablist-tab style="width: 100%; padding: 15px; background-color: #ffdd00; border: none; text-align: left; font-size: 18px; font-weight: bold; color: #333; cursor: pointer;">⚡ Power Backup Solutions</button>
+    <div data-ui-tablist-tabpanel style="padding: 15px; display: none;">
+      <div style="font-size: 16px; color: #333;">
+        Our power backup solutions ensure uninterrupted service during outages, with high-quality UPS systems and generators tailored to your needs.
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  const accordionButtons = document.querySelectorAll('[data-ui-tablist-tab]');
+  
+  accordionButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      const panel = button.nextElementSibling;
+      const isOpen = panel.style.display === 'block';
+
+      document.querySelectorAll('[data-ui-tablist-tabpanel]').forEach(p => p.style.display = 'none');
+      
+      if (!isOpen) {
+        panel.style.display = 'block';
+      }
+    });
+  });
+</script>
 
 
       <!-- shop section end -->
